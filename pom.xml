@@ -3,11 +3,11 @@
     
     <groupId>com.test</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0-RC3</version>
     <packaging>pom</packaging>
 
     <properties>
-        <parentVersion>1.0.0-SNAPSHOT</parentVersion>
+        <parentVersion>1.0.0-RC3</parentVersion>
     </properties>
     
     <dependencyManagement>
@@ -44,7 +44,7 @@
     <scm>
         <connection>scm:git:https://github.com/luanfrj/parent-test.git</connection>
         <developerConnection>scm:git:https://github.com/luanfrj/parent-test.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>1.0.0-RC3</tag>
     </scm>
 
     <build>
